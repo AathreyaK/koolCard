@@ -207,7 +207,7 @@ var main = function (vertexShaderText, fragmentShaderText, imgObj) {
 
     var ambientUniLoc = gl.getUniformLocation(program, 'ambientLight');
     var sunDirUniLoc = gl.getUniformLocation(program, 'sun.direction');
-    var sunColUniLoc = gl.getUniformLocation(program, 'sun.col');
+    var sunColUniLoc = gl.getUniformLocation(program, 'sun.color');
     var lightPosUniLoc = gl.getUniformLocation(program, 'lightPos');
     var cameraPosUniLoc = gl.getUniformLocation(program, 'cameraPos');
 
